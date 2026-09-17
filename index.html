@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SM Creative Corner</title>
+<style>
+body{margin:0;font-family:Arial;background:#180024;color:#fff;max-width:430px;margin:auto}
+.hero{background:linear-gradient(135deg,#ff4fd8,#7b2cff);padding:24px}
+.btn{display:block;background:#25D366;color:#fff;padding:14px;text-align:center;border-radius:14px;text-decoration:none;font-weight:bold;margin-top:16px}
+.insta{background:#C13584}.tabs{display:flex;background:#2a0b45}.tabs button{flex:1;padding:14px;background:none;border:none;color:#fff}
+.page{display:none}.show{display:block}.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;padding:14px}
+.card{background:#2b1242;border-radius:16px;overflow:hidden}.card img{width:100%;height:140px;object-fit:cover}.card p{text-align:center;margin:0;padding:8px}
+.about{padding:18px;line-height:1.6}
+</style></head>
+<body>
+<div class='hero'><h2>SM Creative Corner</h2><p>Personalised Gifts & Premium Printing</p>
+<a class='btn' href='https://wa.me/919080562292?text=Hi%20SM%20Creative%20Corner,%20I%20want%20to%20order'>💬 Order on WhatsApp</a></div>
+<div class='tabs'><button onclick="show('home')">Home</button><button onclick="show('about')">About</button></div>
+<div id='home' class='page show'><div class='grid'>
+<!-- Replace the text inside src='' with your actual photo links or filenames -->
+<div class='card'><img src='images/keychain.jpeg' alt='Key Chains'><p>Key Chains</p></div>
+<div class='card'><img src='images/photoframes.jpeg' alt='Photo Frames'><p>Photo Frames</p></div>
+<div class='card'><img src='images/phonecases.jpeg' alt='Phone Cases'><p>Phone Cases</p></div>
+<div class='card'><img src='images/fridgemagnet.jpeg' alt='Fridge Magnet'><p>Fridge Magnet</p></div>
+<div class='card'><img src='images/idcards.jpeg' alt='ID Cards'><p>ID Cards</p></div>
+<div class='card'><img src='images/labels.jpeg' alt='Labels'><p>Labels</p></div>
+<div class='card'><img src='images/returngifts.jpeg' alt='Return Gifts'><p>Return Gifts</p></div>
+<div class='card'><img src='images/birthdaygifts.jpeg' alt='Birthday Gifts'><p>Birthday Gifts</p></div>
+<div class='card'><img src='images/standees.jpeg' alt='Standees'><p>Standees</p></div>
+<div class='card'><img src='images/caricature.webp' alt='Caricature'><p>Caricature</p></div>
+<div class='card'><img src='images/minialbums.jpeg' alt='Mini Albums'><p>Mini Albums</p></div>
+</div>
+<a class='btn insta' href='https://www.instagram.com/smcreativecorner?stkn=MTlwdm40eHhsNXcyMA=='>🎥 Watch Videos</a>
+</div>
+<div id='about' class='page'><div class='about'><h2>About Us</h2><p>We create customised gifts using your favourite photos with premium quality printing.</p>
+<a class='btn insta' href='https://www.instagram.com/smcreativecorner?stkn=MTlwdm40eHhsNXcyMA=='>📸 Instagram Page</a></div></div>
+<script>function show(id){document.querySelectorAll('.page').forEach(p=>p.classList.remove('show'));document.getElementById(id).classList.add('show');}</script>
+</body></html>
