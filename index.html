@@ -5,7 +5,9 @@
 <style>
 body{margin:0;font-family:Arial;background:#180024;color:#fff;max-width:480px;margin:auto}
 .hero{background:linear-gradient(135deg,#ff4fd8,#7b2cff);padding:24px}
-.whatsapp{display:block;background:#25D366;color:#fff;padding:14px;text-align:center;text-decoration:none;font-weight:bold}
+.action-buttons{display:flex;gap:8px;padding:12px;background:#180024}
+.whatsapp{flex:1;background:#25D366;color:#fff;padding:14px;text-align:center;text-decoration:none;font-weight:bold;border-radius:8px;display:block}
+.videos-btn{flex:1;background:#ff0050;color:#fff;padding:14px;text-align:center;text-decoration:none;font-weight:bold;border-radius:8px;display:block}
 .tabs{display:flex;background:#2a0b45}
 .tabs button{flex:1;background:none;border:none;color:#fff;padding:14px;font-weight:bold;cursor:pointer}
 .tabs button.active{background:#2b1242}
@@ -24,7 +26,10 @@ body{margin:0;font-family:Arial;background:#180024;color:#fff;max-width:480px;ma
   <p>Personalised Gifts & Premium Custom Items</p>
 </div>
 
-<a class="whatsapp" href="https://wa.me/919080562292?text=Hi%20SM%20Creative%20Corner,%20I%20want%20to%20order">Chat on WhatsApp</a>
+<div class="action-buttons">
+  <a class="whatsapp" href="https://wa.me/919080562292?text=Hi%20SM%20Creative%20Corner,%20I%20want%20to%20order">💬 Order on WhatsApp</a>
+  <a class="videos-btn" href="https://www.instagram.com/smcreativecorner">▶ Watch Videos</a>
+</div>
 
 <div class="tabs">
   <button class="active" onclick="show('home')">Home</button>
@@ -66,4 +71,3 @@ function show(id){
 
 </body>
 </html>
-
